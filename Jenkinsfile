@@ -4,7 +4,7 @@ pipeline {
    stages {
       stage('e2e-tests') {
          steps {
-            sh 'npm run upload:test'
+            sh 'npm run upload:check'
          }
       }
    }

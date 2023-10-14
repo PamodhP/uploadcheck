@@ -4,7 +4,7 @@
   "description": "jenkins check",
   "main": "index.js",
   "scripts": {
-    "upload:test": "npx playwright test"
+    "upload:check": "npx playwright test"
   },
   "author": "",
   "license": "ISC",
