@@ -1,6 +1,5 @@
 pipeline {
-   agent { docker { image 'mcr.microsoft.com/playwright' 
-    args '-e HOME=/tmp -e NPM_CONFIG_PREFIX=/.npm'} }
+   agent { docker { image 'mcr.microsoft.com/playwright' } }
    stages {
       stage('e2e-tests') {
          steps {
