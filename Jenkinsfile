@@ -3,7 +3,7 @@ pipeline {
    stages {
       stage('e2e-tests') {
          steps {
-            sh 'npm run upload:check'
+            sh 'npm run upload:check --loglevel=verbose'
          }
       }
    }
